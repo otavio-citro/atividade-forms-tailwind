@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>criando um form com tailwind</title>
+</head>
+
+<body class="bg-gray-200 h-screen flex items-center justify-center ">
+    <form action="" method="post" class="bg-white p-6 rounded-lg shadow max-w-md space-y-4">
+        <div class="">
+            <label for="nome" class="block text-sm font-medium mb-1">nome</label>
+            <input type="text" id="nome" class="w-full border px-4 py-4 rounded">
+        </div>
+        <div class="">
+            <label for="email" class="block text-sm font-medium mb-1">e-mail</label>
+            <input type="email" id="email" class="w-full border px-4 py-4 rounded">
+        </div>
+        <div class="">
+            <label for="msg" class="block text-sm font-medium mb-1">menssagem</label>
+            <textarea type="tex" id="msg" class="w-full border px-4 py-4 rounded"></textarea>
+        </div>
+        <button type="button" class="bg-blue-600 text-white px-4 py-2 rounded ml-7 mr-7 mb-3">Enviar menssagem</button>
+    </form>
+
+</body>
+
+</html>
